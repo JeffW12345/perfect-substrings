@@ -9,7 +9,6 @@ namespace CodingChallenges
         public static int PerfectSubstring(string str, int num)
         {
             int count = 0;
-            Console.WriteLine(str.Length);
             for (int startOfSliceIndex = 0; startOfSliceIndex < str.Length - 1; startOfSliceIndex++)
             {
                 for (int endofSliceIndex = startOfSliceIndex + 1; endofSliceIndex < str.Length; endofSliceIndex++)
