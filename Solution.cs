@@ -5,7 +5,7 @@ namespace CodingChallenges
 
     class Solution
     {
-        // Returns the number of perfect substrings of length 'num'.
+        // Returns the number of perfect substrings of repeating character value 'num'.
         public static int PerfectSubstring(string str, int num)
         {
             int count = 0;
